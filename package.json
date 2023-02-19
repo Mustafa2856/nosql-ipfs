@@ -1,6 +1,6 @@
 {
   "name": "nosql-ipfs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use a decentralized database with your data being encrypted and stored over a decentralized web on IPFS.",
   "main": "index.js",
   "scripts": {
