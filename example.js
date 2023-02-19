@@ -1,11 +1,10 @@
 import { createDB } from "./index.js";
 
-const db = await createDB('testDB2');
+const db = await createDB('testDB');
 console.log(db);
 const coll = await db.createCollection('testCollection');
 console.log(coll);
-//const coll = await db.getCollection('testCollection');
 
-await coll.createDocument({hello:'weirdgdsd db'});
+await coll.createDocument({hello:'world'});
 
 console.log(await coll.findAll());

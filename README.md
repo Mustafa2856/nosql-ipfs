@@ -1,4 +1,11 @@
 # NoSQL-IPFS
+Database driver for NoSQL over IPFS.
+
+Providing a MongoDB like NoSQL experience over a decentralized architecture (IPFS).
+
+## Driver - Usage
+
+Clone the repo and paste it in your node modules
 
 ## Steps to Run the Application
 // To be added
